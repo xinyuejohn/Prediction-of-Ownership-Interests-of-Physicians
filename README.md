@@ -10,6 +10,9 @@ The data is about licensed physicians in the United States, as well as payments 
 ## Definition of Ownership Interest
 ‘Ownership interest’ in the context of this challenge is defined as follows: A physician has an ownership interest if he or she has received one or more transactions from a pharmaceutical company in the relevant time frame which has been reported to the government as being related to an ownership interest. In the training data, such transactions are marked by the corresponding indicator variable `ownership_indicator`, but for the 1000 doctors in the test set, these transactions are not appearing in training data.
 
+## Model
+Used XGBoost and ensemble methods.
+
 ## Evaluation
 The model is evaluated based on the performance measure of balanced accuracy.
 And the model reached 78% of BAC. 
